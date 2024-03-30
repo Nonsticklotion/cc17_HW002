@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.orderinfo {
+  max-width: 500px;
+}
+.orderinfobox{
+  background-color: fff;
+  max-width: 500px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: 16px;
+  margin-top: 8px;
+  background-color: #fff;
+  box-shadow: 5px 5px 31px 0px rgba(0,0,0,0.21);
+}
+
+.headorder {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+}
+.subtotal > div {
+  color: rgb(11, 11, 11);
+  font-size: 1.25rem;
+}
+.coupon {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.couponicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid blue; */
+  height: 3rem;
+  width: 3rem;
+}
+
+.iconinput input {
+  height: 3rem;
+  max-width: 400px;
+  border: 1px solid rgba(87, 85, 82, 0.413);
+  color: rgba(87, 85, 82, 0.413);
+  padding-left: 10px;
+}
+
+.iconapply {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 48px;
+  border: 1px solid #98bdb4;
+  color: #98bdb4;
+  border-radius: 16px;
+}
+
+.totalpay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+}
+.totalpay span{
+  font-size: 2.5rem;
+  color: #98bdb4;
+ font-weight: 600;
+}
+
+.buttoncheckout{
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 16px ;
+  background-color: #98bdb4;
+  border: none;
+  border-radius: 16px;
+}

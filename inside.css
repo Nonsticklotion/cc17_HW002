@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  height: 250px;
+  min-width: 30%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #fff;
+  /* border: 1px solid blue; */
+  border-radius: 16px;
+  box-shadow: 5px 5px 31px 0px rgba(0,0,0,0.21);
+}
+.card > div {
+  height: 170px;
+  /* background-color: rosybrown; */
+  display: flex;
+  margin-left: 16px;
+}
+.icon {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid blue; */
+}
+.icon > div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #82aba0;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+.appicon {
+  background-color: #559df1;
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  padding: 1rem;
+  border-radius: 32px;
+  gap: 8px;
+  color: #fff;
+  /* border: 1px solid blue; */
+}
+.iconapp > div {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.iconname {
+  min-width: 50%;
+  font-size: 20px;
+}
+.usefor {
+  font-size: 12px;
+}
+
+.rate {
+  width: 230px;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid blue; */
+}
+.rate > div {
+  height: 44px;
+  margin-bottom: 4px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.rate .middlerate .circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #03d3b2;
+}
+
+.rate .middlerate #lv{
+  height: 20px;
+  width: 70px;
+  border-radius: 3px;
+  border: none;
+
+}
+
+.ratename{
+  font-size: 24px;
+}
